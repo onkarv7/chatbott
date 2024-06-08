@@ -39,3 +39,7 @@
     text-align: left;
     background-color: #f1f1f186;
 }
+
+.chat-icon-container:hover .tooltip {
+    opacity: 1;
+}

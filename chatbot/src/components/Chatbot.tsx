@@ -182,7 +182,7 @@ const Chatbot: React.FC = () => {
     <div className="fixed bottom-5 right-5 flex flex-col w-full max-w-md rounded-lg bg-white shadow-lg max-h-[90vh] overflow-hidden z-50">
       {!isChatbotVisible && (
         <div
-          className="fixed bottom-[20px] right-[50px] z-100 cursor-pointer"
+          className="fixed bottom-[20px] right-[50px] z-100 cursor-pointer chat-icon-container"
           onClick={handleChatIconClick}
         >
           <div className="bg-[#eacb04] w-14 h-14 flex justify-center items-center rounded-full relative">
